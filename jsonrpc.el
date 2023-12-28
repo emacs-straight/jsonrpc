@@ -4,7 +4,7 @@
 
 ;; Author: João Távora <joaotavora@gmail.com>
 ;; Keywords: processes, languages, extensions
-;; Version: 1.0.22
+;; Version: 1.0.23
 ;; Package-Requires: ((emacs "25.2"))
 
 ;; This is a GNU ELPA :core package.  Avoid functionality that is not
@@ -1003,9 +1003,9 @@ of the API instead.")
                                            (or method "")
                                            (if id (format "[%s]" id) "")))))
                (msg
-                (cond ((eq format 'full)
+                (cond (nil(eq format 'full)
                        (format "%s%s\n" preamble (or json log-text)))
-                      ((eq format 'short)
+                      (nil(eq format 'short)
                        (format "%s%s\n" preamble (or log-text "")))
                       (t
                        (format "%s%s" preamble
