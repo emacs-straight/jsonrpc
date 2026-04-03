@@ -1,2 +1,2 @@
-;; Generated package description from jsonrpc.el  -*- no-byte-compile: t -*-
-(define-package "jsonrpc" "1.0.27.0.20260126.225709" "JSON-RPC library" '((emacs "25.2")) :commit "99abaa70bf99de7a2f150ac9bb1e62ca6ea4d6f9" :url "https://elpa.gnu.org/packages/jsonrpc.html" :authors '(("João Távora" . "joaotavora@gmail.com")) :maintainer '("João Távora" . "joaotavora@gmail.com") :keywords '("processes" "languages" "extensions"))
+;; Generated package description from jsonrpc.el  -*- no-byte-compile: t; lexical-binding:t -*-
+(define-package "jsonrpc" "1.0.28.0.20260402.173109" "JSON-RPC library" '((emacs "25.2")) :commit "99f2e353e7f1b169c52fe9cd767b97b175c88d13" :url "https://elpa.gnu.org/packages/jsonrpc.html" :authors '(("João Távora" . "joaotavora@gmail.com")) :maintainer '("João Távora" . "joaotavora@gmail.com") :keywords '("processes" "languages" "extensions"))
